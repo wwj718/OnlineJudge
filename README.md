@@ -12,7 +12,7 @@ Coming Soon
 
 ![contest][4]
 
-![contest_rank][5]
+![contest_rank_edit][5]
 
 ![admin_problem][6]
 
@@ -22,6 +22,6 @@ Coming Soon
 [2]: https://dn-virusdefender-blog-cdn.qbox.me/preview.png
 [3]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewsubmission.png
 [4]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewcontest.png
-[5]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewcontest_rank.png
+[5]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewcontest_rank.png?edit
 [6]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewadmin_problem.png
 [7]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewadmin_contest.png
