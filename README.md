@@ -30,4 +30,8 @@ TODO：
 [4]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewcontest.png
 [5]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewcontest_rank.png?edit
 [6]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewadmin_problem.png
+<<<<<<< HEAD
 [7]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewadmin_contest.png
+=======
+[7]: https://dn-virusdefender-blog-cdn.qbox.me/oj_previewadmin_contest.png
+>>>>>>> 668c5133898ccc84f34a5524b9afe049bb733977
