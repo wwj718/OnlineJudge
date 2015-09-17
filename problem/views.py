@@ -24,6 +24,7 @@ import logging
 
 logger = logging.getLogger("app_info")
 
+
 def problem_page(request, problem_id):
     try:
         problem = Problem.objects.get(id=problem_id, visible=True)
@@ -282,11 +283,15 @@ def problem_list_page(request, page=1):
     except Exception:
         pass
 
+    if request.user.is_authenticated():
+        problems_status = json.loads(request.user.problems_status)
+    else:
+        problems_status = {}
     # 右侧标签列表 按照关联的题目的数量排序 排除题目数量为0的
     tags = ProblemTag.objects.annotate(problem_number=Count("problem")).filter(problem_number__gt=0).order_by("-problem_number")
 
     return render(request, "oj/problem/problem_list.html",
                   {"problems": current_page, "page": int(page),
                    "previous_page": previous_page, "next_page": next_page,
-                   "keyword": keyword, "tag": tag_text,
+                   "keyword": keyword, "tag": tag_text,"problems_status": problems_status,
                    "tags": tags, "difficulty_order": difficulty_order})
